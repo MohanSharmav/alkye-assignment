@@ -32,6 +32,8 @@ A production-ready Rust REST API for task management with email-based two-factor
 
 ## Setup & Installation
 
+For a submission-ready deployment guide and production instructions, see [SUBMISSION.md](SUBMISSION.md).
+
 ### 1. Clone and Setup
 
 ```bash
