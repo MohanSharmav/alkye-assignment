@@ -51,6 +51,16 @@ This script:
 4. ✓ Validates caching
 5. ✓ Generates the final validation response
 
+## Run all test cases at once
+
+Execute the full Rust test suite with:
+
+```bash
+cargo test
+```
+
+This runs every test in the project, including integration tests and workflow validation tests.
+
 ---
 
 ## Manual Validation

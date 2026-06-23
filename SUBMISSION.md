@@ -113,6 +113,16 @@ Run the validation test directly:
 cargo test --test validation_flow -- --nocapture
 ```
 
+### 7. Run all test cases at once
+
+Use the standard Cargo test runner to execute all tests in the crate:
+
+```bash
+cargo test
+```
+
+This runs unit tests, integration tests, and all test files under `tests/`.
+
 ## Production Setup
 
 ### 1. Configure production services
