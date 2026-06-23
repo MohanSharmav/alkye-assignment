@@ -32,7 +32,6 @@ pub struct LoginChallenge {
     pub id: Uuid,
     pub user_id: Uuid,
     pub code: String, // hashed
-    pub code_plain: Option<String>, // only in memory for logging
     pub attempts: i32,
     pub expires_at: DateTime<Utc>,
     pub verified: bool,
